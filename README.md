@@ -9,7 +9,12 @@ git clone https://github.com/fg817sw751478/fake-ai-discord.git
 ```
 Another way is to just download the zip and extract it.
 ### Important things
-You will need to rename the `.exampleenv` to `.env`. Open the `.env` file in notepad or whatever code editor you use, and copy paste your bot token into the `.env` file.
+You need to install the packages, which is done by doing:
+```
+pip install -r requirements.txt
+```
+
+Next, you will need to rename the `.exampleenv` to `.env`. Open the `.env` file in notepad or whatever code editor you use, and copy paste your bot token into the `.env` file.
 
 A provided example would be:
 ```

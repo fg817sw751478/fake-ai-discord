@@ -14,7 +14,7 @@ You need to install the packages, which is done by doing:
 pip install -r requirements.txt
 ```
 
-Next, you will need to rename the `.exampleenv` to `.env`. Open the `.env` file in notepad or whatever code editor you use, and copy paste your bot token into the `.env` file.
+Next, you will need to rename the `default.exampleenv` to `.env`. Open the `.env` file in notepad or whatever code editor you use, and copy paste your bot token into the `.env` file.
 
 A provided example would be:
 ```

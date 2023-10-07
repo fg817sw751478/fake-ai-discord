@@ -7,14 +7,14 @@ To clone this repository, simply type in the console:
 ```
 git clone https://github.com/fg817sw751478/fake-ai-discord.git
 ```
-Another way is to just download the zip and extract it.
+Another way is to just download the source code and extract it.
 ### Important things
 You need to install the packages, which is done by doing:
 ```
 pip install -r requirements.txt
 ```
 
-Next, you will need to rename the `default.exampleenv` to `.env`. Open the `.env` file in notepad or whatever code editor you use, and copy paste your bot token into the `.env` file.
+Next, you will need to rename the `.exampleenv` to `.env`. Open the `.env` file in notepad or whatever code editor you use, and copy paste your bot token into the `.env` file.
 
 A provided example would be:
 ```

@@ -26,6 +26,10 @@ Go to line 67, and change the string in `name="questions && Responding to them"`
 name="people"
 ```
 Therefore, the bot's activity would be 'Listening to people'.
+### Logging
+The bot auto logs data into `logs.txt`. You can change this. The default minimum log level is `INFO`.
+### A known issue
+A known issue is that if you don't respond fast enough, discord might disconnect from the gateway. I can't really fix it here. It's an issue with the `input()` behaviour.
 ## Example
 ```
 user#0: [BOT.MENTION] hello ((RESPONSE > Hello there!
